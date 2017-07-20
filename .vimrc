@@ -14,8 +14,11 @@ Plugin 'nvie/vim-flake8'
 Plugin 'godlygeek/tabular'
 " Markdown plugin
 Plugin 'plasticboy/vim-markdown'
+" AutoCompletation plugin
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 let g:vim_markdown_folding_disabled = 1
+set number
